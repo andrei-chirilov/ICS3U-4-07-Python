@@ -8,7 +8,7 @@
 def main():
     counter = 1
 
-    for numbers in range(1000, 2000):
+    for numbers in range(1000, 2001):
         counter += 1
         if counter % 5 == 1:
             print("{} ".format(numbers))
